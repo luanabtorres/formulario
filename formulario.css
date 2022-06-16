@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: 'Jaldi', sans-serif;   
+    color: #155B81;
+    margin-left: 8%;
+}
+
+#subtitulo{
+    font-family: 'Jaldi', sans-serif;
+    color: #155B81;
+    margin-left: 9%;
+    font-size: large;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background: rgb(255,166,250);
+    background: linear-gradient(90deg, rgba(255,166,250,1) 0%, rgba(223,255,87,1) 35%, rgba(127,255,254,1) 100%);
+    font-family: 'Jaldi', sans-serif;   
+    font-size: 1em;
+    color: darkslategrey;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 10px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #155B81;
+    display: block;
+    
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid lightblue ;
+    box-shadow: 2px 2px 2px #d2b8ab;
+    display: block;
+}
+
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: white;
+    
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #FFFAFA;
+    border: 0;
+    margin-bottom: 1em;
+    color: black;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px #aa8877;
+    text-shadow: 1px 1px 1px #aa8877(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 48%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover {
+    background: lightgrey;
+    box-shadow: inset 2px 2px 2px #d2b8ab(0,0,0,0.2);
+    text-shadow: none;
+
+}
+
+.botao, select{
+    cursos: pointer;
+}
+
+#check {
+    display: inline-block;
+}
